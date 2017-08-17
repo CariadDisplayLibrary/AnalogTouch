@@ -1,0 +1,20 @@
+Source: analogtouch
+Section: libraries
+Priority: extra
+Maintainer: Matt Jenkins <matt@majenko.co.uk>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+
+Package: libdisplaycore-driver-analogtouch
+Section: libraries
+Architecture: all
+XBSC-Group: DisplayCore
+XBSC-Subgroup: Drivers
+Depends: libdisplaycore-core
+Provides: AnalogTouch.h
+Description: Analog Resistive Touchscreen driver for DisplayCore
+ Utilizes the internal ADC of the PIC32 to interface with a standard
+ 4-wire resistive touch panel
+
+
+
