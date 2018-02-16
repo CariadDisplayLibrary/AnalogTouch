@@ -27,7 +27,7 @@ class AnalogTouch : public Touch {
         void scaleX(float sx) { _scale_x = sx; }
         void scaleY(float sy) { _scale_y = sy; }
 
-        boolean isPressed();
+        bool isPressed();
 
         void initializeDevice();
 
@@ -37,7 +37,7 @@ class AnalogTouch : public Touch {
 
     private:
         struct coord _pos;
-        boolean _pressed;
+        bool _pressed;
         uint8_t _xl;
         uint8_t _xr;
         uint8_t _yu;

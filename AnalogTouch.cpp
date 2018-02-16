@@ -47,7 +47,7 @@ int AnalogTouch::y() {
     return 0;
 }
 
-boolean AnalogTouch::isPressed() {
+bool AnalogTouch::isPressed() {
     return _pressed;
 }
 

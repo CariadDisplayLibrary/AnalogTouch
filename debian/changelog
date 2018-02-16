@@ -1,10 +1,22 @@
-analogtouch (2.0.1) uecide; urgency=low
+libdisplaycore-driver-analogtouch (2.0.3) uecide; urgency=low
+
+  * Fixed rotation offset bug
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Wed, 10 Jan 2018 13:42:10 +0000
+
+libdisplaycore-driver-analogtouch (2.0.2) uecide; urgency=low
+
+  * Added build files
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Thu, 17 Aug 2017 16:28:09 +0100
+
+libdisplaycore-driver-analogtouch (2.0.1) uecide; urgency=low
 
   * Adding build files
 
  -- Matt Jenkins <matt@majenko.co.uk>  Thu, 17 Aug 2017 16:19:46 +0100
 
-analogtouch (2.0.0) uecide; urgency=low
+libdisplaycore-driver-analogtouch (2.0.0) uecide; urgency=low
 
   * Initial Import
 
