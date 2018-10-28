@@ -12,7 +12,7 @@ XBSC-Group: DisplayCore
 XBSC-Subgroup: Drivers
 Depends: libdisplaycore-core
 Provides: AnalogTouch.h
-Description: Analog Resistive Touchscreen driver for DisplayCore
+Description: Analog Resistive Touchscreen
  Utilizes the internal ADC of the PIC32 to interface with a standard
  4-wire resistive touch panel
 
