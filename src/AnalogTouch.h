@@ -1,7 +1,7 @@
 #ifndef _ANALOGTOUCH_H
 #define _ANALOGTOUCH_H
 
-#include <DisplayCore.h>
+#include <Cariad.h>
 
 #if !defined(max)
 #define max(A,B) ((A) > (B) ? (A) : (B))
